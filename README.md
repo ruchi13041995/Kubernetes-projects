@@ -1,2 +1,19 @@
-# Kubernetes-projects
-This repository contains hands-on Kubernetes examples and manifests created to understand, deploy, and manage containerized applications using Kubernetes.  The goal of this repository is to demonstrate practical Kubernetes knowledge including application deployment, service exposure, configuration management, and scaling
+This repository includes essential commands for working with various technologies, along with my personal experiments and explorations.
+
+🛠️ GitHub Cheet Sheets
+
+🐳 Docker Cheet Sheets
+
+📦 Dockerfile Samples
+
+Docker nodejs Project
+Hosting Simple Apache Web server Project
+🧩 Docker-Compose Project-1: Flask + Redis Counter!
+
+🐾 Docker-Compose Project-2: Animal Voting Application 🗳️
+
+Installation of Git-Ops Tools:
+ArgoCD
+Grafana
+Prometheus
+Loki
