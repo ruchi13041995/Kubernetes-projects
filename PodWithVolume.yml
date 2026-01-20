@@ -1,0 +1,18 @@
+# We are using the HostPath option so whatever is available inside in /tmp/test would be available in the /tmp location in POD.
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hostpath-example-linux
+spec:
+  containers:
+  - name: example-container
+    image: ubuntu
+    command: ["sleep","100"]
+    volumeMounts:
+    - mountPath: /tmp
+      name: example-volume
+  volumes:
+  - name: example-volume
+    hostPath:
+      path: /tmp/test # directory location on host
+      type: Directory # this field is optional
